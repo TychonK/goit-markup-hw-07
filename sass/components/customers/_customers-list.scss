@@ -1,0 +1,30 @@
+.clients_list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients_item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid $icons-gray;
+  border-radius: 4px;
+  fill: $icons-gray;
+
+  transition-property: border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border: 1px solid $primary-blue-color;
+        fill: $primary-blue-color;
+    }
+
+}

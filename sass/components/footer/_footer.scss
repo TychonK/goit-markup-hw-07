@@ -1,0 +1,36 @@
+.footer {
+  background-color: $bg-dark;
+  display: flex;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.footer-flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.footer-box {
+
+    &:first-child {
+     margin-right: 70px;
+    }
+
+    &:nth-child(2) {
+     margin-right: 93px;
+    }
+
+}
+
+.footer-box-title {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 20px;
+}

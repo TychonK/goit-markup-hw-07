@@ -1,0 +1,9 @@
+.header {
+  box-sizing: border-box;
+  border-bottom: 1px solid #ececec;
+  /* min-height: 80px; */
+}
+.header_flex {
+  display: flex;
+  height: 80px;
+}

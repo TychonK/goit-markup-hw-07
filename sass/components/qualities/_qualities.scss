@@ -1,0 +1,47 @@
+.qualities {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.qualities_item {
+  width: 270px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+
+}
+
+.qualities_icon-box {
+  display: flex;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  background-size: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.qualities_icon {
+  width: 70px;
+  height: 70px;
+}
+
+.qualities_title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--main-dark-color);
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.qualities_description {
+  font-size: 14px;
+  color: var(--gray-color);
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  margin: 0;
+}

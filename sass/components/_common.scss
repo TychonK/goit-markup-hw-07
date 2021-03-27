@@ -1,0 +1,31 @@
+body {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+img {
+  display: block;
+}
+
+.section {
+  padding: 94px 0 94px 0;
+}
+
+/* Main container style */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
